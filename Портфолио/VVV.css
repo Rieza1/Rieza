@@ -1,0 +1,35 @@
+body {
+    background-color: gray; 
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 80%;
+    margin: auto;
+}
+.video-item {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}

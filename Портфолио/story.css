@@ -1,0 +1,215 @@
+body.story-page {
+    background: url("images/2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white; 
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+
+header {
+    background: rgba(0, 0, 0, 0); 
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.story-container {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0); 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.story-description {
+    font-size: 20px;  
+    max-width: 600px;
+    line-height: 1.5;
+    margin: auto;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  
+    margin-top: 20px;
+}
+
+.button-group a {
+    text-decoration: none;
+}
+
+
+button {
+    padding: 12px 24px;
+    background: #bcab9200;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+button:hover {
+    background: #a09078b6;
+}
+
+
+.back-button {
+    display: block;
+    margin: 30px auto 0; 
+    background: #444;
+}
+
+.back-button:hover {
+    background: #222;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 36px; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: white;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+body.choose-story-page {
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    position: relative;
+    z-index: 1;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; 
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+.gallery img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain; 
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 10px;
+    image-rendering: auto; 
+}
+#background-video {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;  
+    height: 100vh;  
+    object-fit: cover;  
+    z-index: -1;  
+}
+
+
+
+.content {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Buttons */
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: #ff4500;
+    color: white;
+}
+
+.btn-left {
+    background-color: #444;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+/* Button Styling */
+.button-container {
+    text-align: center;  /* Centers the button */
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: #ff4500; /* Orange button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}

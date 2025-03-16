@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a Story</title>
+    <link rel="stylesheet" href="story.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="choose-story-page">
+
+    <!-- Video Background -->
+    <div class="video-container">
+        <video autoplay loop muted playsinline>
+            <source src="videos/3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header>
+        <h1>Choose a Story</h1>
+    </header>
+
+    <div class="story-selection">
+        <p class="story-intro">
+            Select a story and begin your journey into the world of imagination.
+        </p>
+
+        <div class="story-options">
+            <button onclick="location.href='story1.html'">Story 1</button>
+            <button onclick="location.href='story2.html'">Story 2</button>
+            <button onclick="location.href='story3.html'">Story 3</button>
+        </div>
+
+        <button class="back-button" onclick="location.href='story.html'">Back to Story Main</button>
+    </div>
+
+</body>
+</html>

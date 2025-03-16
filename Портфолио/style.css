@@ -1,0 +1,189 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 220px;  
+    left: 260px; 
+    background: rgba(0, 0, 0, 0); 
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+    text-align: center; 
+    display: inline-block; 
+}
+
+
+.overlay h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.overlay button {
+    margin-top: 10px;
+    padding: 12px 24px;
+    background: #bcab92ab;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay button:hover {
+    background: #e68900;
+}
+
+
+body.main-page {
+    background-color: white; 
+    overflow: auto; 
+}
+
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container {
+    margin: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+.content-section {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 36px; 
+    text-transform: uppercase;
+}
+
+
+.subtitle {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 18px; 
+    line-height: 1.5;
+    max-width: 400px; 
+    text-align: center;
+    display: inline-block;
+}
+/* General Styling */
+body.main-page {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navigation Buttons */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    border: 2px solid white;
+}
+
+.button:hover {
+    background-color: gray;
+    color: white;
+    border-color: lightgray;
+}
+
